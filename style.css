@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+div, .nav-bar-container {
+    width: 100%;
+    height: 96px;
+    background-color: #383e4c;
+}
+
+div, .nav-bar-content {
+    display: flex;
+    justify-content: center;
+    color: #f5f5f6;
+    font-size: 28px
+}

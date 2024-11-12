@@ -1,5 +1,7 @@
 body {
-    margin: 0;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: white;
 }
 
 .nav-bar {
@@ -13,12 +15,221 @@ body {
 
 .nav-items a{
     color: white;
-    font-size: 28px;
+    font-size: 18px;
     text-decoration: none;
-    padding: 1rem;
-    border: 1px;
-    border-color: white;
+    padding: 20px 32px;
+    margin: 8px;
+    background-color:#383e4c;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
 }
 
+#hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
 
+}
 
+#hero.home {
+    background-image: url(img11.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: normal;
+    text-shadow: 2px 2px 1px black;
+}
+
+.brand-state {
+    margin-top: -35px;
+    font-size: 18px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 3%;
+}
+
+.card {
+    width: 290px;
+    height: 420px;
+    background-color: #f2f2f2;
+    
+}
+
+.card img {
+    width: 290px;
+}
+
+.card-one {
+    color:#279136;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.card-two {
+    color: #4fa1cd;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.card-three {
+    color:#838383;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.card p {
+    color:#999999;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 14px;
+    text-align:left;
+}
+
+.two-container {
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-bottom: 2.5%;
+}
+
+.card-bottom img {
+    width: 435px;
+}
+
+.card-bottom {
+    width: 435px;
+    height: 400px;
+    background-color: #f2f2f2;
+}
+
+.card-bottom h2{
+    display: flex;
+    justify-content: center;
+    color: #919191;
+}
+
+.card-bottom p {
+    color: #999999;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.card .card-button {
+    display: flex;
+    justify-content: center;
+}
+
+.card-bottom .card-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.two-hero-img {
+    background-image: url(img13.jpg);
+    padding:4%;
+}
+
+.two-hero-img h3 {
+    color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: normal;
+    text-shadow: 2px 2px 1px black;
+}
+
+.two-hero-img p {
+    color: #fdfdfd;
+    text-align: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.two-part {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 18%;
+    margin-left: 18%;
+}
+
+.two-part .card {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 216.5px;
+    height: 475px;
+}
+
+.two-part .card img {
+    width: 216.5px;
+}
+
+.one-big-sec {
+    display: flex;
+    justify-content: center;
+}
+
+.one-big-sec img {
+    width: 870px;
+}
+
+.one-big-sec .card {    
+    width: 870px;
+    height: 625px;
+    margin-bottom: 2.5%;
+}
+
+.one-big-sec .card-button {
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-bar h4 {
+    font-size: 26px;
+    font-weight: normal;
+    color: #8f8f8f;
+}
+
+.footer-info {
+    margin-top: -1%;
+    font-size: 12px;
+    color: #8f8f8f;
+} 
+
+.copy {
+    font-size: 12px;
+    color: #8f8f8f;
+    
+}
